@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+.data{
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+    height: 60vh;
+    padding-top: 1%;
+    
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    color: aliceblue;
+    background-color: black;
+}
+
+p{
+    font-family: 'Poor Story', cursive;
+    letter-spacing: 2px;
+    color:#36454F;
+}
+a{
+    border-radius: 0 !important ;
+    text-align: center;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0;
+}
+
+img{
+    filter:contrast(200%) grayscale(100%); 
+    -webkit-transform: scale(0.9);
+	transform: scale(0.9);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;    
+    
+}
+
+img:hover {
+    filter: none;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+}
